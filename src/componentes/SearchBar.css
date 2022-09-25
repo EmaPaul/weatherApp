@@ -1,0 +1,24 @@
+.add{
+    margin-left:10px;
+    margin-right:20px;
+    border-radius: 10px;
+}
+.input{
+    border-radius: 10px;
+    margin-right: 20px;
+    padding:5px
+}
+.add:hover{
+    background-color:rgb(212, 211, 211)
+}
+@media screen and (max-width: 1200px){
+    .input{
+        margin-left:65px
+    }
+    .add{
+      margin-left: -5px;
+    }
+    .add:hover{
+        background-color:rgb(212, 211, 211) ;
+    }
+}

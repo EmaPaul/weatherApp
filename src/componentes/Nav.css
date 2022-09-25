@@ -1,0 +1,25 @@
+.navbar-brand{
+    margin-left:60px
+}
+
+.about{
+    color:white;
+    text-decoration: none;
+}
+
+.img{
+    margin-right: 9px;
+}
+
+.navbar {
+    border: 2px solid
+}
+
+@media screen and (max-width: 1200px){
+    .navbar-brand{
+        margin-left: 10px;
+    }
+    .about{
+        margin-right: 18px;
+    }
+}
