@@ -6,7 +6,7 @@ export default function Ciudad({city}) {
     const {id} = useParams()
     const [infoCity,setInfoCity]=useState({})
     const api=process.env.REACT_APP_API
-    fetch(`http://api.openweathermap.org/data/2.5/weather?id=${id}&appid=${api}&units=metric`)
+    fetch(`https://api.openweathermap.org/data/2.5/weather?id=${id}&appid=${api}&units=metric`)
     .then(res=>res.json())
     .then((info)=>{
         const objetoCiudad={

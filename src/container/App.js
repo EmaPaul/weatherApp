@@ -12,7 +12,7 @@ function App() {
   const[ciudades,setCiudades]=useState([]);
   const apiKey=process.env.REACT_APP_API;
   function search(ciudad){
-    fetch(`http://api.openweathermap.org/data/2.5/weather?q=${ciudad}&appid=${apiKey}&units=metric`)
+    fetch(`https://api.openweathermap.org/data/2.5/weather?q=${ciudad}&appid=${apiKey}&units=metric`)
     .then(res=>res.json())
     .then((data)=>{
       if(data.main!==undefined){
