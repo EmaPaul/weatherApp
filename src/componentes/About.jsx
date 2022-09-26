@@ -1,9 +1,9 @@
 import React from 'react';
 import './About.css';
-import lk from '../img/linkedin.png';
+import lk from '../img/linkedin_icon_2.png';
 import gt from '../img/github.png';
 import fl from '../img/folder.png';
-import ins from '../img/instagram.png';
+import ins from '../img/Instagram_icon_2.png';
 import { Link } from 'react-router-dom';
 export default function About() {
   return (
