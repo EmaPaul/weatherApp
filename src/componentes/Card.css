@@ -27,7 +27,27 @@
     padding-top: 0px !important;
 }
 
-@media screen and (max-width: 1200px){
+/*Horizontal*/
+@media only screen and (max-width: 960px){
+    .min{
+        display: flex;
+        margin-left: 15px;
+        margin-top: 10px;
+    }
+
+    .numberMin{
+        margin-top: 20px;
+        margin-left:-6px
+    }
+
+    .iconoClima{
+        margin-top: 10px;
+        margin-left: -30px;
+    }
+}
+
+/*Vertical*/
+@media only screen and (max-width: 500px){
     .min{
         margin-top: 15px;
         margin-right: 137px;
